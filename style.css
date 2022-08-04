@@ -1,0 +1,39 @@
+
+body {
+  background: #607EAA;
+  color: #FFF;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper { 
+  border : 1px solid #fff;
+  border-radius: 5px;
+  overflow:hidden;
+  height: 87%;
+  position: absolute;
+  width: 95%;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+
+#one {
+  float: left;
+  width: 20%;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#two { 
+  margin-left: 20%;
+  height: 100%;
+}
+
