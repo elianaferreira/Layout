@@ -7,10 +7,45 @@ body {
   margin: 0;
 }
 
-.wrapper { 
+h1 {
+	color: #3a241d;
+	text-align: center;
+}
+
+.container {
+	/* background-color: #eee; */
+	width: 35%;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+  left: 0px;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.plant-holder {
+	position: relative;
+	height: 10%;
+	left: -10px;
+}
+
+.plant-holder2 {
+	position: relative;
+	height: inherit;
+  left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 100%;
+	z-index: 2;
+  left: 0px;
+}
+
+.wrapper {
   border : 1px solid #fff;
   border-radius: 5px;
-  overflow:hidden;
   height: 87%;
   position: absolute;
   width: 95%;
@@ -19,21 +54,16 @@ body {
   right: 0px;
 }
 
-.wrapper div {
-   min-height: 200px;
-   padding: 10px;
-}
-
-#one {
-  float: left;
-  width: 20%;
-  border-right: 1px solid #fff;
-  box-sizing: border-box;
+.layout {
+  background-color: #E8F9FD;
+  margin-left: 35%;
   height: 100%;
 }
 
-#two { 
-  margin-left: 20%;
-  height: 100%;
+.small {
+  width: 50%;
 }
 
+.smaller {
+  width: 3rem;
+}
