@@ -14,6 +14,15 @@ dragElement(document.getElementById('plant11'));
 dragElement(document.getElementById('plant12'));
 dragElement(document.getElementById('plant13'));
 dragElement(document.getElementById('plant14'));
+dragElement(document.getElementById('plant15'));
+dragElement(document.getElementById('plant16'));
+dragElement(document.getElementById('plant17'));
+dragElement(document.getElementById('plant18'));
+dragElement(document.getElementById('plant19'));
+dragElement(document.getElementById('plant20'));
+dragElement(document.getElementById('plant21'));
+dragElement(document.getElementById('plant22'));
+dragElement(document.getElementById('plant23'));
 
 /*"A closure is the combination of a function bundled together (enclosed) 
 with references to its surrounding state (the lexical environment). 
