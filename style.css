@@ -7,46 +7,44 @@ h1 {
 	text-align: center;
 }
 
-#left-container {
+#tablero-izquierdo {
 	left: 0px;
 }
 
-#right-container {
+#tablero-derecho {
 	right: 0px;
 }
 
-.container {
+.tablero {
 	width: 25%;
-	top: 0px;
 	position: absolute;
 	height: 100%;
 	padding: 10px;
-  top: 10%
 }
 
-.plant-holder {
+.contenedor {
 	position: relative;
 	height: 6%;
 }
 
-.plant-holder2 {
+.contenedor2 {
 	position: relative;
 	height: 18%;
 	left: -10px;
 }
 
-.small {
+.reducido {
   height: 4%;
 }
 
-.plant {
+.componente {
 	position: absolute;
 	max-width: 100%;
 	max-height: 150%;
 	z-index: 3;
 }
 
-.plant2 {
+.producto {
 	position: absolute;
 	max-width: 200%;
 	max-height: 200%;
@@ -55,10 +53,9 @@ h1 {
 
 /*https://codepen.io/Rotarepmi/pen/rjpNZY*/
 
-.jar-walls {
+.layout {
 	height: 80%;
 	width: 45%;
-	/* background: #d1e1df; */
   border: 2px solid #3a241d;
 	border-radius: 1rem;
 	position: absolute;
@@ -69,7 +66,7 @@ h1 {
   right: 0px;
 }
 
-.jar-top {
+.rotulo {
 	width: 45%;
 	height: 5%;
 	background: #C4D7E0;
@@ -82,4 +79,10 @@ h1 {
   border-radius: 1em 1rem 0px 0px;
   text-align: center;
   color: #3a241d;
+}
+
+.titulo {
+  position: relative;
+  display: inline;
+  top: 0.5rem;
 }

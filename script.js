@@ -1,29 +1,25 @@
 /*The solution to draggable elements was inspired by w3schools solution on creating a [Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp).*/
 
-dragElement(document.getElementById('plant1'));
-dragElement(document.getElementById('plant2'));
-dragElement(document.getElementById('plant3'));
-dragElement(document.getElementById('plant4'));
-dragElement(document.getElementById('plant5'));
-dragElement(document.getElementById('plant6'));
-dragElement(document.getElementById('plant7'));
-dragElement(document.getElementById('plant8'));
-dragElement(document.getElementById('plant9'));
-dragElement(document.getElementById('plant10'));
-dragElement(document.getElementById('plant11'));
-dragElement(document.getElementById('plant12'));
-dragElement(document.getElementById('plant13'));
-dragElement(document.getElementById('plant14'));
-dragElement(document.getElementById('plant15'));
-dragElement(document.getElementById('plant16'));
-dragElement(document.getElementById('plant17'));
-dragElement(document.getElementById('plant18'));
-dragElement(document.getElementById('plant19'));
-dragElement(document.getElementById('plant20'));
-dragElement(document.getElementById('plant21'));
-dragElement(document.getElementById('plant22'));
-dragElement(document.getElementById('plant23'));
-dragElement(document.getElementById('plant24'));
+dragElement(document.getElementById('componente1'));
+dragElement(document.getElementById('componente2'));
+dragElement(document.getElementById('componente3'));
+dragElement(document.getElementById('componente4'));
+dragElement(document.getElementById('componente5'));
+dragElement(document.getElementById('componente6'));
+dragElement(document.getElementById('componente7'));
+dragElement(document.getElementById('componente8'));
+dragElement(document.getElementById('componente9'));
+dragElement(document.getElementById('componente10'));
+dragElement(document.getElementById('componente11'));
+dragElement(document.getElementById('componente12'));
+dragElement(document.getElementById('componente13'));
+dragElement(document.getElementById('componente14'));
+dragElement(document.getElementById('componente15'));
+dragElement(document.getElementById('componente16'));
+dragElement(document.getElementById('producto1'));
+dragElement(document.getElementById('producto2'));
+dragElement(document.getElementById('producto3'));
+dragElement(document.getElementById('producto4'));
 
 /*"A closure is the combination of a function bundled together (enclosed) 
 with references to its surrounding state (the lexical environment). 
