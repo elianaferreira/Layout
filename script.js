@@ -26,13 +26,13 @@ with references to its surrounding state (the lexical environment).
 In other words, a closure gives you access to an outer function’s scope 
 from an inner function." Create a closure so that you can track the dragged element*/
 
-function dragElement(terrariumElement) {
+function dragElement(element) {
 	//set 4 positions for positioning on the screen
 	let pos1 = 0,
 		pos2 = 0,
 		pos3 = 0,
 		pos4 = 0;
-	terrariumElement.onpointerdown = pointerDrag;
+	element.onpointerdown = pointerDrag;
 
 	function pointerDrag(e) {
 		e.preventDefault();
@@ -58,8 +58,8 @@ function dragElement(terrariumElement) {
 		pos4 = e.clientY;
 		console.log(pos1, pos2, pos3, pos4);
 		// set the element's new position:
-		terrariumElement.style.top = terrariumElement.offsetTop - pos2 + 'px';
-		terrariumElement.style.left = terrariumElement.offsetLeft - pos1 + 'px';
+		element.style.top = element.offsetTop - pos2 + 'px';
+		element.style.left = element.offsetLeft - pos1 + 'px';
 	}
 
 	function stopElementDrag() {
