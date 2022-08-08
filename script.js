@@ -23,6 +23,7 @@ dragElement(document.getElementById('plant20'));
 dragElement(document.getElementById('plant21'));
 dragElement(document.getElementById('plant22'));
 dragElement(document.getElementById('plant23'));
+dragElement(document.getElementById('plant24'));
 
 /*"A closure is the combination of a function bundled together (enclosed) 
 with references to its surrounding state (the lexical environment). 
